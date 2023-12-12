@@ -1,0 +1,11 @@
+*.o
+.DS_Store
+*.png
+*.lis
+*.sconsign.dblite
+*.log
+*.root
+*.app
+*.pcm
+modules/upcdst/DictionaryUPCDst.cpp
+.vscode

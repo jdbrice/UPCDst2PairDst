@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<Task name="PairDstMaker" type="PairDstMaker" config="" nodePath="PairDstMaker"  />
+	<mod></mod>
+
+    <!-- <daughterMass>0.000510</daughterMass> -->
+	<!-- <daughterMass>0.139570</daughterMass> -->
+    <daughterMass>0.493677</daughterMass>
+	
+	<PairDstMaker>
+		<EventLoop progress="true" />
+		<input>
+			<!-- <dst treeName="FemtoDst" url="/Users/jdb/bnl/work/2022/04182022/FemtoDst.root" nEvents="-1"/> -->
+            <dst treeName="mUPCTree" url="/Users/brandenburg.89/star/data/Run19-upcdst/8072930A593EEA643FF59D9D0ED7FA31_3241.root" nEvents="-1"/>
+		</input>
+
+		<output>
+			<TFile url="slim_pair_dst_Run19AuAu_kk.root" />
+		</output>
+	</PairDstMaker>
+</config>
